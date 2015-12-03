@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="RegistrationDatabase" Class="UserLoginDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\RegistrationDatabase.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="HerosVillianRegistration.My.MySettings" SettingsPropertyName="RegistrationDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LoginTable" Member="LoginTables">
+    <Type Name="LoginTable">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
