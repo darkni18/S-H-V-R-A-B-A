@@ -5,4 +5,14 @@ Use the Battle Analyzer to choose two characters you have created and put them t
 
 Issues  
 Log in system is not authenticated.  
-Issue with the text box on Battle Analysis when using backspace to empty text box.
+Issue with the text box on Battle Analysis when using backspace to empty text box.   
+Will not work properly on Windows 10
+
+Minimum requirements  
+1 gigahertz (GHz) or faster 32-bit (x86) or 64-bit (x64) processor   
+1 gigabyte (GB) RAM (32-bit) or 2 GB RAM (64-bit)  
+100 mb available hard disk space  
+Windows 7, 8, 8.1  
+Sql Express 
+
+
